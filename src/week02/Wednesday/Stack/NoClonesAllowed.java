@@ -1,6 +1,6 @@
 package week02.Wednesday.Stack;
 
-public class noClonesAllowed extends StackImpl {
+public class NoClonesAllowed extends StackImpl {
 
 	@Override
 	public void push(int data) {
@@ -24,7 +24,7 @@ public class noClonesAllowed extends StackImpl {
 
 	}
 	public static void main(String[] args) {
-		StackImpl s = new noClonesAllowed();
+		StackImpl s = new NoClonesAllowed();
 		for (int i = 10; i < 20; i++) {
 			s.push(i);
 		}
