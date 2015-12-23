@@ -15,20 +15,20 @@ public class Main {
         Friend kamen = new Friend("Kamen", 21, "m", 100);
         Friend pavli = new Friend("Pavli", 23, "m", 100);
 
-        List<Friend> HackBulgariaFriends = new ArrayList<>();
-        HackBulgariaFriends.add(ivo);
-        HackBulgariaFriends.add(rado);
-        HackBulgariaFriends.add(anto);
-        HackBulgariaFriends.add(vlado);
-        HackBulgariaFriends.add(phil);
-        HackBulgariaFriends.add(magi);
-        HackBulgariaFriends.add(kamen);
-        HackBulgariaFriends.add(pavli);
+        List<Friend> hackBulgariaFriends = new ArrayList<>();
+        hackBulgariaFriends.add(ivo);
+        hackBulgariaFriends.add(rado);
+        hackBulgariaFriends.add(anto);
+        hackBulgariaFriends.add(vlado);
+        hackBulgariaFriends.add(phil);
+        hackBulgariaFriends.add(magi);
+        hackBulgariaFriends.add(kamen);
+        hackBulgariaFriends.add(pavli);
         
-        NewYearsEve TwentySixteen = new NewYearsEve(HackBulgariaFriends);
-        TwentySixteen.HaveGoodTime(HackBulgariaFriends);
+        NewYearsEve twentySixteen = new NewYearsEve(hackBulgariaFriends);
+        twentySixteen.HaveGoodTime(hackBulgariaFriends);
         System.out.println(anto.name + " had " + anto.numberOfDrinks + " drinks at this party.");
-        TwentySixteen.memories(phil);
+        twentySixteen.memories(phil);
         rado.isSober();
         
     }
