@@ -44,7 +44,7 @@ public class Point {
     }
 
     public boolean equals(Point a) {
-        return this.x == a.x && this.y == a.y;
+        return this.x.equals(a.x) && this.y.equals(a.y);
     }
 
     public int hashCode() {
